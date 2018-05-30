@@ -1,0 +1,277 @@
+      .homeBody
+      {
+          background-color: #ffffff;
+		  /*
+          overflow-y: hidden;
+          overflow-x: hidden;
+          width: 0;
+		  */
+			overflow: hidden;
+			width:100%;
+			height:100%;
+      }
+
+      .nHomeBody
+      {
+          overflow-y: hidden;
+          overflow-x: hidden;
+          width: 0;
+      }
+
+      .textOnButtonSm
+      {
+          position: absolute;
+          color: #000;
+          font-size: 27px;
+          top: 11%;
+          left: 22%;
+      }
+
+      .textOnButtonMd
+      {
+          position: absolute;
+          color: #000;
+          font-size: 27px;
+          top: 11%;
+          left: 14%;
+      }
+
+      .textOnButtonLg
+      {
+          position: absolute;
+          color: #000;
+          font-size: 27px;
+          top: 11%;
+          left: 12%;
+      }
+
+      .no-display
+      {
+          display: none;
+      }
+
+      .headingInCol
+      {
+          padding-left: 75px;
+          padding-top: 25px;
+          background-color: #ddd;
+          padding-bottom: 25px;
+      }
+
+      .fullWidth
+      {
+          width: 1300px;
+      }
+
+      .fullHeight
+      {
+          height: 690px;;
+      }
+
+      .heading
+      {
+          color: #000;
+      }
+
+      .features
+      {
+          font-size: 25px;
+      }
+      .key-feature-heading{
+        font-weight: bold;
+        margin-top: 10px;
+      }
+      .fHeading
+      {
+          font-weight: bold;
+      }
+
+      .fDescription {
+          font-size: 25px;
+          text-align: justify;
+      }
+
+      .m-t-l
+      {
+          margin-top: 5%;
+          margin-left: 2%;
+      }
+
+      .fImg {
+        display:block;
+        margin: 40% auto;
+        margin-bottom: 5%;
+      }
+
+      .pImg {
+        display:block;
+        margin: auto;
+      }
+
+      .cFormControl
+      {
+          padding: 0px 5px;
+          font-size: 17px;
+      }
+
+      .cFormControl2
+      {
+          padding: 0px 5px;
+          font-size: 19px;
+      }
+
+      .error-border
+      {
+        border: 2px solid red;
+      }
+
+      /*
+        * RADIO BUTTON
+        */
+        .cRadio:checked,
+    [type="radio"]:not(:checked) {
+        position: absolute;
+        left: -9999px;
+    }
+    .cRadio:checked + label,
+    .cRadio:not(:checked) + label
+    {
+        position: relative;
+        padding-left: 28px;
+        cursor: pointer;
+        line-height: 20px;
+        display: inline-block;
+        color: #666;
+    }
+    .cRadio:checked + label:before,
+    .cRadio:not(:checked) + label:before {
+        content: '';
+        position: absolute;
+        left: 0;
+        top: 0;
+        width: 18px;
+        height: 18px;
+        border: 1px solid #000;
+        border-radius: 100%;
+        background: #fff;
+    }
+    .cRadio:checked + label:after,
+    .cRadio:not(:checked) + label:after {
+        content: '';
+        width: 12px;
+        height: 12px;
+        background: #F87DA9;
+        position: absolute;
+        top: 3px;
+        left: 3px;
+        border-radius: 100%;
+    }
+    .cRadio:not(:checked) + label:after {
+        opacity: 0;
+        -webkit-transform: scale(0);
+        transform: scale(0);
+    }
+    .cRadio:checked + label:after {
+        opacity: 1;
+        -webkit-transform: scale(1);
+        transform: scale(1);
+    }
+
+    /*
+    * RATING
+    */
+
+    .rate-area {
+      float: left;
+      border-style: none;
+    }
+
+    .rate-area:not(:checked) > input {
+      position: absolute;
+      top: -9999px;
+      clip: rect(0,0,0,0);
+    }
+
+    .rate-area:not(:checked) > label {
+      float: right;
+      width: 1em;
+      padding: 0 .1em;
+      overflow: hidden;
+      white-space: nowrap;
+      cursor: pointer;
+      font-size: 250%;
+      line-height: 1.2;
+      color: #666;
+      text-shadow: 1px 1px #1f1818;
+    }
+
+    .key-features {
+      font-size: 26px;
+      text-align: justify;
+    }
+
+    .rate-area:not(:checked) > label:before { content: '★ '; }
+
+    .rate-area > input:checked ~ label {
+      color: gold;
+      text-shadow: 1px 1px gold;
+      font-size: 250% !important;
+    }
+
+    .rate-area:not(:checked) > label:hover, .rate-area:not(:checked) > label:hover ~ label { color: gold; }
+
+    .rate-area > input:checked + label:hover, .rate-area > input:checked + label:hover ~ label, .rate-area > input:checked ~ label:hover, .rate-area > input:checked ~ label:hover ~ label, .rate-area > label:hover ~ input:checked ~ label {
+      color: gold;
+      text-shadow: 1px 1px goldenrod;
+    }
+/*
+    .rate-area > label:active {
+      position: relative;
+      top: 2px;
+      left: 2px;
+    }
+*/
+    label
+    {
+      font-size: 18px;
+    }
+
+.btn-1{
+	background-color:#0071B5;
+	color:#fff;
+	width: 200px;
+	border-radius:10px;
+	font-size: 27px;
+	line-height: 27px;
+	text-align: center;
+	padding: 10px 0;
+	margin: 0 auto;
+	cursor: pointer;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.feedback-question label .btn-2 .btn-text{
+	font-size:32px;
+	line-height:30px;
+}
+.feedback-question label .btn-2 i.fa{
+    color: #000;
+    background-color: #fddf00;
+	border-radius:50%;
+	line-height:30px;
+}
+.feedback-question label {
+    /*color: #fff;*/
+	background-color:#ddd;
+	width: 160px;
+	border-radius:10px;
+	padding: 10px 0;
+	cursor: pointer;
+	text-align: center;
+}
+.feedback-question input[type=radio] {
+	display: none;
+}
+.feedback-question input[type="radio"]:checked+label {
+    color: #fff;
+    background-color: #0071B5;
+}
